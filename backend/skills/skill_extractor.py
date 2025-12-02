@@ -3,8 +3,10 @@ import re
 import spacy
 from collections import Counter
 #from spacy.lang.en.stop_words import STOP_WORDS
+import en_core_web_sm
 
-nlp = spacy.load("en_core_web_sm")
+nlp = en_core_web_sm.load()
+#nlp = spacy.load("en_core_web_sm")
 STOPWORDS = nlp.Defaults.stop_words
 
 def extract_keywords_from_text(text, top_n=20):
