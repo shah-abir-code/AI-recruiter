@@ -4,4 +4,5 @@ pdfminer.six==20221105
 python-docx==0.8.11
 torch>=2.1.0
 sentence-transformers==2.2.2
+numpy
 en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.6.0/en_core_web_sm-3.6.0-py3-none-any.whl
